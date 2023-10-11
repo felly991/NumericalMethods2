@@ -1,0 +1,15 @@
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\bin\Debug\net7.0\MVkyrsachCA.exe
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\bin\Debug\net7.0\MVkyrsachCA.deps.json
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\bin\Debug\net7.0\MVkyrsachCA.runtimeconfig.json
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\bin\Debug\net7.0\MVkyrsachCA.dll
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\bin\Debug\net7.0\MVkyrsachCA.pdb
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.csproj.AssemblyReference.cache
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.AssemblyInfoInputs.cache
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.AssemblyInfo.cs
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.csproj.CoreCompileInputs.cache
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.dll
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\refint\MVkyrsachCA.dll
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.pdb
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\MVkyrsachCA.genruntimeconfig.cache
+C:\Users\Данила\source\repos\MVkyrsachCA\MVkyrsachCA\obj\Debug\net7.0\ref\MVkyrsachCA.dll
