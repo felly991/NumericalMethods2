@@ -2,11 +2,11 @@
 using MVkyrsachCA;
 using MVkyrsachCA.Methods;
 
-Console.WriteLine("Введите нижнюю границу");
+Console.WriteLine("Введите нижнюю границу");                 //2
 double lower = double.Parse(Console.ReadLine());
-Console.WriteLine("Введите верхнюю границу");
+Console.WriteLine("Введите верхнюю границу");                //5
 double upper = double.Parse(Console.ReadLine());
-Console.WriteLine("Введите шаг");
+Console.WriteLine("Введите шаг");                            //50
 int step = int.Parse(Console.ReadLine());
 
 MVkyrsachCA.Information.lower = lower;
