@@ -6,8 +6,6 @@ Console.WriteLine("Введите нижнюю границу");                
 double lower = double.Parse(Console.ReadLine());
 Console.WriteLine("Введите верхнюю границу");                //5
 double upper = double.Parse(Console.ReadLine());
-Console.WriteLine("Введите шаг");                            //50
-int step = int.Parse(Console.ReadLine());
 
 MVkyrsachCA.Information.lower = lower;
 MVkyrsachCA.Information.upper = upper;
@@ -20,23 +18,23 @@ while (answer != "exit")
     switch (answer)
     {
         case "1":
-            new LeftMethod(lower, upper, step).Print();
+            new LeftMethod(lower, upper, 50).Print();
             Console.WriteLine("__________________");
             break;
         case "2":
-            new RightMethod(lower, upper, step).Print();
+            new RightMethod(lower, upper, 50).Print();
             Console.WriteLine("__________________");
             break;
         case "3":
-            new MiddleMethod(lower, upper, step).Print();
+            new MiddleMethod(lower, upper, 50).Print();
             Console.WriteLine("__________________");
             break;
         case "4":
-            new TrapezoidMethod(lower, upper, step).Print();
+            new TrapezoidMethod(lower, upper, 50).Print();
             Console.WriteLine("__________________");
             break;
         case "5":
-            new ParabolaMethod(lower, upper, step).Print();
+            new ParabolaMethod(lower, upper, 50).Print();
             Console.WriteLine("__________________");
             break;
         default:
