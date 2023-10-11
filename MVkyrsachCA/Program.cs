@@ -1,43 +1,42 @@
-﻿// low = 2 hing = 5 1/ln(x)
-
+﻿using Microsoft.VisualBasic;
+using MVkyrsachCA;
 using MVkyrsachCA.Methods;
-void Info()
-{
-    Console.WriteLine("Вaш определенный интеграл 1/ln(x) \n" +
-        "Нижняя граница 2 \n" +
-        "Верхняя граница 5 \n" +
-        "Выберите метод решения: \n" +
-        "1 - Метод левых прямоугольников \n" +
-        "2 - Метод правых прямоугольников \n" +
-        "3 - Метод средних прямоульников \n" +
-        "4 - Метод трапеций \n" +
-        "5 - Метод парабол \n" +
-        "exit - выход");
-}
-Info();
+
+Console.WriteLine("Введите нижнюю границу");
+double lower = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите верхнюю границу");
+double upper = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите шаг");
+int step = int.Parse(Console.ReadLine());
+
+MVkyrsachCA.Information.lower = lower;
+MVkyrsachCA.Information.upper = upper;
+MVkyrsachCA.Information.Info();
+
 string? answer = Console.ReadLine();
+
 while (answer != "exit")
 {
     switch (answer)
     {
         case "1":
-            new LeftMethod(2, 5, 50).Print();
+            new LeftMethod(lower, upper, step).Print();
             Console.WriteLine("__________________");
             break;
         case "2":
-            new RightMethod(2, 5, 50).Print();
+            new RightMethod(lower, upper, step).Print();
             Console.WriteLine("__________________");
             break;
         case "3":
-            new MiddleMethod(2, 5, 50).Print();
+            new MiddleMethod(lower, upper, step).Print();
             Console.WriteLine("__________________");
             break;
         case "4":
-            new TrapezoidMethod(2, 5, 50).Print();
+            new TrapezoidMethod(lower, upper, step).Print();
             Console.WriteLine("__________________");
             break;
         case "5":
-            new ParabolaMethod(2, 5, 50).Print();
+            new ParabolaMethod(lower, upper, step).Print();
             Console.WriteLine("__________________");
             break;
         default:
